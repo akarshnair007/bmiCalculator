@@ -1,0 +1,77 @@
+body {
+  overflow-x: hidden;
+}
+h1,
+h4 {
+  font-family: "Rubik", sans-serif;
+}
+.heading h1 {
+  color: black;
+  font-weight: bolder;
+}
+.content h5 {
+  padding: 0 30px;
+}
+.type-animation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+.home-back {
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 30px;
+  border-radius: 20px;
+}
+.bmical {
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 30px;
+  border-radius: 20px;
+}
+.bmi-value {
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 30px;
+  border-radius: 20px;
+}
+.bmiName {
+  color: rgb(51, 45, 45);
+  font-weight: bolder;
+}
+.bmiIndex {
+  color: black;
+  font-weight: bolder;
+}
+.homebtn {
+  padding-left: 150px;
+}
+.label {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+.inputField {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+@media (max-width: 496px) {
+  .bmical h1 {
+    font-size: 15px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .submitButton {
+    padding: 5px 5px;
+    font-size: 10px;
+  }
+}
